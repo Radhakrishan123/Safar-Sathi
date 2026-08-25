@@ -1,8 +1,7 @@
 public interface EmployeeDAO {
 
-    void updateEmployee(int id, String email);
-
+    void createTable();
+    void addEmployee(EmployeeDb e);
+    void updateEmployee(String email, int id);
     void deleteEmployee(int id);
-
-	void addEmployee(EmployeeDb e);
 }
